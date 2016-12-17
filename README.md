@@ -51,7 +51,7 @@ Coin Parity Heuristic Value =
 	
 	
 	
-2. Mobility
+Mobility
 
 It attempts to capture the relative difference between the number of possible moves for the max and the min players, with the intent of restricting the opponent’s mobility and increasing one’s own mobility. This value is calculated as follows :
 
@@ -63,8 +63,8 @@ else
 	Mobility Heuristic Value = 0
 	
 	
-	
-3. Corners Captured
+
+Corners Captured
 
 Corners hold special importance because once captured, they cannot be flanked by the opponent. They also allow a player to build coins around them and provide stability to the player’s coins. This value is captured as follows :
 
@@ -77,7 +77,7 @@ else
 	
 	
 	
-4. Stability
+Stability
 
 
 The stability measure of a coin is a quantitative representation of how vulnerable it is to being flanked. Coins can be classified as belonging to one of three categories: (i) stable, (ii) semi-stable and (iii) unstable.
